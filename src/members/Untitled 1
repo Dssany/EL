@@ -1,0 +1,3 @@
+<jsp:useBean id="mb" class="members.MemberDTO"/> mb라는객체를 태그로 생성, properti를 사용가능
+
+<jsp:setProperty property="*" name="mb"/> --> name 과 DTO 이름을 동일하게 사용하여야 값가져오기 가능

@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>login.jsp<br>
-	<form action="loginChk.jsp" method="post">
+	<form action="printLogin.jsp" method="post">
 		<input type="text" name="id" placeholder="아이디"><br>
 		<input type="text" name="pwd" placeholder="비밀번호"><br>
 		<input type="submit" value="로그인"><br>
