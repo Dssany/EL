@@ -7,6 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<form action="chkUser.jsp">
+		<input type="text" name="id" placeholder="아이디"><br>
+		<input type="text" name="pwd" placeholder="비밀번호"><br>
+		<input type="radio" name="user" value="user" checked>사용자
+		<input type="radio" name="id" value="admin">관리자<br>
+		<input type="submit" value="로그인">
+	
+	
+	
+	</form>
 </body>
 </html>
